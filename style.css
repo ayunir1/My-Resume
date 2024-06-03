@@ -9,6 +9,13 @@ body {
     text-align: center;
     font-size: large;
   }
+
+  h2 [
+
+    font-size: medium;
+    
+
+  ]
   
   p {
     color: #666;
