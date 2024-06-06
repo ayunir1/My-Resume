@@ -1,9 +1,29 @@
-body {
+
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-  }
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header h1 {
+  margin: 0;
+}
   
+
+header p {
+  margin: 0.5rem 0;
+}
+
+section {
+  padding: 1rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
   h1 {
     color: #333;
     text-align: center;
@@ -25,18 +45,30 @@ body {
 
   }
 
-  
-  section {
-    padding: 0 10%;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-  }
 
   p {
     color: #666;
     line-height: 1.6;
   }
 
+  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.job {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
   
   .centered-image {
     display: block;
@@ -44,3 +76,14 @@ body {
     margin-right: auto;
     width: fit-content;
   }
+
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 
+  }
+
