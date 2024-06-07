@@ -24,6 +24,10 @@ section {
   border-bottom: 1px solid #ccc;
 }
 
+.section {
+  margin-bottom: 20px;
+}
+
   h1 {
     color: #333;
     text-align: center;
@@ -45,6 +49,13 @@ section {
 
   }
 
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+}
+.course-list li {
+    margin-bottom: 5px;
+}
 
   p {
     color: #666;
